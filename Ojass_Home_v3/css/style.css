@@ -1,14 +1,10 @@
-/*
-  Theme Name: Rapid
-  Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+html{
+  overflow-x:hidden;
+}
 body {
   background: #fff;
   color: #444;
@@ -1566,4 +1562,12 @@ h6 {
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
+}
+
+.parallax{
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

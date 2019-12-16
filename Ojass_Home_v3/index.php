@@ -4,12 +4,9 @@
   <meta charset="utf-8">
   <title>OJASS'20 | NIT JSR</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
 
   <!-- Favicons -->
   <!-- <link href="img/favicon.png" rel="icon"> -->
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
@@ -27,12 +24,6 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: Rapid
-    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
@@ -82,7 +73,7 @@
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="clearfix">
+  <section id="intro" class="parallax clearfix">
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-center">
         <div class="col-md-6 intro-info order-md-first order-last">
@@ -104,9 +95,9 @@
     <!--==========================
       About Us Section
     ============================-->
-    <section id="about">
+    <section id="about" class="parallax">
 
-      <div class="container">
+      <div cla class="parallax"ss="container">
         <div class="row">
 
           <div class="col-lg-5 col-md-6">
@@ -137,7 +128,7 @@
     <!--==========================
       Services Section  ~~~Event Section
     ============================-->
-    <section id="services" class="section-bg">
+    <section id="services" class="section-bg parallax">
       <div class="container">
 
         <header class="section-header">
@@ -194,13 +185,19 @@
 
         </div>
 
+        <div class="row">
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 wow bounceInUp "  data-wow-delay="0.5s" data-wow-duration="2s" >
+            <button type="button" class="float-right btn btn-outline-success" href="#">Explore More</button>
+          </div>
+        </div>
+
       </div>
     </section><!-- #services  Events-->
 
     <!--==========================
       Why Us Section
     ============================-->
-    <section id="why-us" class="wow fadeIn">
+    <section id="why-us" class="wow fadeIn parallax">
       <div class="container-fluid">
         
         <header class="section-header">
@@ -252,7 +249,7 @@
 
       </div>
 
-      <div class="container">
+      <!-- <div class="container">
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
@@ -277,13 +274,13 @@
   
         </div>
 
-      </div>
+      </div> -->
     </section>
 
     <!--==========================
       Call To Action Section
     ============================-->
-    <!-- <section id="call-to-action" class="wow fadeInUp">
+    <!-- <section id="call-to-action" class=" class="parallax"wow fadeInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
@@ -303,7 +300,7 @@
       Features Section
     ============================-->
     <!-- <section id="features">
-      <div class="container">
+      <div c class="parallax"lass="container">
 
         <div class="row feature-item">
           <div class="col-lg-6 wow fadeInUp">
@@ -347,7 +344,7 @@
     <!--==========================
       Portfolio Section ```` Guest Lectures
     ============================-->
-    <section id="portfolio" class="section-bg">
+    <section id="portfolio" class="section-bg parallax">
       <div class="container">
 
         <header class="section-header">
@@ -358,9 +355,9 @@
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
+              <!-- <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-web">Web</li> -->
             </ul>
           </div>
         </div>
@@ -501,7 +498,7 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="testimonials">
+    <!-- <section id="testimonials" class="parallax">
       <div class="container">
 
         <header class="section-header">
@@ -556,12 +553,13 @@
 
 
       </div>
-    </section><!-- #testimonials -->
+    </section> -->
+    <!-- #testimonials -->
 
     <!--==========================
       Team Section
     ============================-->
-    <section id="team" class="section-bg" style="z-index:1024;height:120vh;">
+    <section id="team" class="section-bg parallax" style="z-index:1024;height:120vh;">
       <div class="container">
       <header class="section-header">
           <h3>Our Team</h3>
@@ -658,7 +656,7 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="clients" class="wow fadeInUp">
+    <section id="clients" class="wow fadeInUp parallax">
       <div class="container">
 
         <header class="section-header">
@@ -683,7 +681,7 @@
     <!--==========================
       Pricing Section
     ============================-->
-    <!-- <section id="pricing" class="wow fadeInUp section-bg">
+    <!-- <section id="pricing" class="wow fad class="parallax"eInUp section-bg">
 
       <div class="container">
 
@@ -767,8 +765,8 @@
     <!--==========================
       Frequently Asked Questions Section
     ============================-->
-    <section id="faq">
-      <div class="container">
+    <section id="faq" class="parallax">
+      <div class= "container ">
         <header class="section-header">
           <h3>Frequently Asked Questions</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
@@ -839,7 +837,8 @@
   <!--==========================
     Footer
   ============================-->
-  <footer id="footer" class="section-bg">
+  <section id="footer">
+  <footer class="section-bg">
     <div class="footer-top">
       <div class="container">
 
@@ -948,7 +947,8 @@
         &copy; Copyright <strong><a href="#">OJASS Webteam</a></strong>. 
       </div>
     </div>
-  </footer><!-- #footer -->
+  </footer>
+  </section><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
