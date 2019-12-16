@@ -64,15 +64,33 @@
           <li><a href="#clients">Sponsors</a></li>
          <li><a href="#faq">FAQs</a></li>
           <li><a href="#footer">Contact Us</a></li>
+          <li class="float-right notifications"><button onclick="notif()" style="background:transparent;border:none;"><i class="fa fa-bell-o fa-2x" aria-hidden="true"></i></button>
+          </li>
         </ul>
+       
       </nav><!-- .main-nav -->
       
     </div>
   </header><!-- #header -->
 
   <!--==========================
+    Notification Section
+  ============================-->
+
+
+  <div class="notifiation-panel" id="NotifPanel" style="background:aqua; width:20%;right:0!important;display:block;height:500px; margin-top:70px; position:fixed;z-index:5;display:none;">
+
+  </div>
+  <!-- Notifications -->
+
+
+
+  <!--==========================
     Intro Section
   ============================-->
+
+  
+
   <section id="intro" class="parallax clearfix">
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-center">
@@ -186,8 +204,10 @@
         </div>
 
         <div class="row">
-          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 wow bounceInUp "  data-wow-delay="0.5s" data-wow-duration="2s" >
-            <button type="button" class="float-right btn btn-outline-success" href="#">Explore More</button>
+          <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 wow bounceInUp "  data-wow-delay="0.2s" data-wow-duration="1.8s" >
+            <a href="#">
+            <button type="button" class="float-right btn btn-outline-info btn-lg">Explore More</button>
+            </a>
           </div>
         </div>
 
@@ -351,17 +371,17 @@
           <h3 class="section-title">Guest Lectures</h3>
         </header>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <!-- <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li> -->
+              <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
-        </div>
-
+        </div> -->
+          <br>
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
@@ -971,6 +991,20 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <script>
+    var flag = 0;
+    function notif(){
+      if(flag==0)
+     { document.getElementById("NotifPanel").style.display = "block";
+      flag=1;}
+      else{
+        document.getElementById("NotifPanel").style.display = "none"; 
+        flag=0;
+      }
+    }
+    
+  </script>
 
 </body>
 </html>
