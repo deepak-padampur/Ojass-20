@@ -205,7 +205,7 @@
 
         <div class="row">
           <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 wow bounceInUp "  data-wow-delay="0.2s" data-wow-duration="1.8s" >
-            <a href="#">
+            <a href="./Events/event.php" target="_blank">
             <button type="button" class="float-right btn btn-outline-info btn-lg">Explore More</button>
             </a>
           </div>
@@ -694,6 +694,15 @@
           <img src="img/clients/client-8.png" alt="">
         </div>
 
+      </div>
+      <div class="row">
+        <div class="container">
+  <div class="col-md-12 float-right">
+    <a href="./Sponsor/sponsor.php" target="_blank">
+  <button type="button" class="float-right btn btn-outline-info btn-lg">Explore More</button>
+  </a>
+  </div>
+  </div>
       </div>
     </section><!-- #clients -->
 
