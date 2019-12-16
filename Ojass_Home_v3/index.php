@@ -673,6 +673,22 @@
       </div>
     </section><!-- #team -->
 
+
+ <!--==========================
+      Awards and Recognition
+    ============================-->
+    <section id="award">
+
+    <div class="container">
+    <header class="section-header">
+      <h3>Under the Patronage of</h3>
+    
+    </header>
+    
+    </div>
+    
+    
+    </section>
     <!--==========================
       Clients Section
     ============================-->
